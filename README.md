@@ -47,3 +47,4 @@ Colors and spacing are CSS variables at the top of `app/globals.css`.
 ## Deploy
 
 Push the project to GitHub and import it on [Vercel](https://vercel.com). No settings are needed.
+ 
