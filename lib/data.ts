@@ -54,7 +54,6 @@ export const now = {
   items: [
   { label: "Building", value: "An Android app with Kotlin, Firebase, and Firestore authentication" },
   { label: "Learning", value: "Android Studio and how apps handle user accounts" },
-  { label: "Reading", value: "Replace with a book, course, or docs you're reading" },
 ],
 };
 
