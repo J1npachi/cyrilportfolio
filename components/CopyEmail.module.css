@@ -1,0 +1,38 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  min-height: 2.75rem;
+  padding: 0.5rem 1.4rem;
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--inverse-fg, #fff);
+  background: var(--inverse-bg, #0a0a0a);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.btn:hover {
+  background: color-mix(in srgb, var(--inverse-bg, #0a0a0a) 82%, var(--bg, #fff));
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--accent, #2f4bff);
+  outline-offset: 3px;
+}
+
+.live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}

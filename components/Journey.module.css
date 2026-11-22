@@ -1,0 +1,56 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 44rem;
+}
+
+.step {
+  display: grid;
+  gap: 0.25rem;
+  padding-block: 1.25rem;
+  border-top: 1px solid var(--line, #e7e7e7);
+}
+
+.step:last-child {
+  border-bottom: 1px solid var(--line, #e7e7e7);
+}
+
+.when {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted, #666);
+}
+
+.step:last-child .when {
+  color: var(--accent, #2f4bff);
+  font-weight: 500;
+}
+
+.step h3 {
+  margin: 0 0 0.25rem;
+  font-family: var(--font-serif, Georgia, serif);
+  font-weight: 400;
+  font-size: clamp(1.25rem, 2.8vw, 1.5rem);
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.step p {
+  margin: 0;
+}
+
+.step div p {
+  color: var(--muted, #666);
+  max-width: 36rem;
+}
+
+@media (min-width: 720px) {
+  .step {
+    grid-template-columns: 7rem minmax(0, 1fr);
+    gap: 2rem;
+  }
+  .when {
+    padding-top: 0.35rem;
+  }
+}

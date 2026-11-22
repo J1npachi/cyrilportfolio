@@ -1,0 +1,119 @@
+.wrap {
+  display: grid;
+  gap: 1rem;
+  max-width: 40rem;
+}
+
+.text {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(1.375rem, 4vw, 1.875rem);
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  cursor: text;
+  user-select: none;
+}
+
+.pending {
+  color: var(--muted, #666);
+}
+
+.correct {
+  color: var(--fg, #0a0a0a);
+}
+
+.wrong {
+  color: var(--fg, #0a0a0a);
+  background: color-mix(in srgb, var(--accent, #2f4bff) 22%, transparent);
+  border-radius: 2px;
+  text-decoration: underline;
+  text-decoration-color: var(--accent, #2f4bff);
+  text-underline-offset: 0.2em;
+}
+
+.current {
+  box-shadow: inset 0 -2px 0 var(--accent, #2f4bff);
+}
+
+.label {
+  font-size: 0.875rem;
+  color: var(--muted, #666);
+}
+
+.input {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.6rem 1rem;
+  font: inherit;
+  font-size: 1rem; /* 16px stops phones from zooming in on focus */
+  color: var(--fg, #0a0a0a);
+  background: var(--bg, #fff);
+  border: 1px solid var(--line-strong, #cdcdcd);
+  border-radius: 0.75rem;
+}
+
+.input:focus-visible {
+  outline: 2px solid var(--accent, #2f4bff);
+  outline-offset: 2px;
+  border-color: transparent;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+}
+
+.result {
+  font-weight: 500;
+  min-height: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.best {
+  font-size: 0.9375rem;
+  color: var(--muted, #666);
+  font-variant-numeric: tabular-nums;
+}
+
+.btn {
+  min-height: 2.75rem;
+  padding: 0.5rem 1.25rem;
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--fg, #0a0a0a);
+  background: transparent;
+  border: 1px solid var(--line-strong, #cdcdcd);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--surface, #f6f6f6);
+  border-color: var(--fg, #0a0a0a);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--accent, #2f4bff);
+  outline-offset: 3px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
