@@ -76,7 +76,7 @@ export const about = {
 export const projects: Project[] = [
   {
     slug: "speedster-typing-test",
-    title: "Speedster Typing Test",
+    title: "Speedster Typing Test (C++)",
     year: "2025",
     description:
       "A typing speed test written in C++ that measures how fast and how accurately you type.",
@@ -99,6 +99,7 @@ export const projects: Project[] = [
     description:
       "A fitness website that helps people see workouts and plans clearly, built with HTML and CSS.",
     tags: ["HTML", "CSS"],
+    image: "/projects/fitpacer-web.png",
     featured: true,
     role: "Design and development",
     problem:
@@ -112,11 +113,12 @@ export const projects: Project[] = [
   },
   {
     slug: "java-typing-test",
-    title: "Java Speed Typing Test",
+    title: "Speedster Typing Test (Java)",
     year: "2026",
     description:
       "A speed typing test built in Java, made to compare how the same idea works in a different language.",
     tags: ["Java"],
+    image: "/projects/java-typing.png",
     featured: true,
     role: "Development",
     problem:
@@ -135,6 +137,7 @@ export const projects: Project[] = [
     description:
       "A mobile app interface designed in Figma, from the first sketches to connected screens.",
     tags: ["Figma", "UI design"],
+    image: "/projects/fitpacer-mobile.png",
     role: "UI design",
     problem:
       "Before writing any code for an app, I wanted to plan how every screen would look and how users would move between them.",
