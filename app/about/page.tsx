@@ -18,6 +18,15 @@ export default function AboutPage() {
           <p className="lead">
             Who I am, how I work, and my full resume below.
           </p>
+          <div className="hero-actions">
+  <a
+    className="btn btn-ghost"
+    href="/resume.pdf"
+    download="Cyril-Mandin-Resume.pdf"
+  >
+    Download resume
+  </a>
+</div>
         </div>
       </section>
 

@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { profile } from "@/lib/data";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cyrilmandin.vercel.app"),
   title: {
     default: `${profile.name} | ${profile.role}`,
     template: `%s | ${profile.name}`,
