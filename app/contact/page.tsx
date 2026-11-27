@@ -24,22 +24,23 @@ export default function ContactPage() {
         <div className="container">
           <a className="contact-email" href={`mailto:${profile.email}`}>
             {profile.email}
-            <CopyEmail email={profile.email} />
           </a>
+          <CopyEmail email={profile.email} />
 
           <ul className="contact-list">
             {profile.socials.map((s) => (
-              <li key={s.label}>
-                <a href={s.href} target="_blank" rel="noopener noreferrer">
-                  <span>{s.label}</span>
-                  <span className="contact-host">
-                    {new URL(s.href).hostname.replace("www.", "")}
-                  </span>
-                </a>
-              </li>
-            ))}
-            <ContactTopics location={profile.location} />
-          </ul>
+          <li key={s.label}>
+            <a href={s.href} target="_blank" rel="noopener noreferrer">
+            <span>{s.label}</span>
+            <span className="contact-host">
+              {new URL(s.href).hostname.replace("www.", "")}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+          <ContactTopics location={profile.location} />
         </div>
       </section>
     </>
