@@ -22,9 +22,10 @@ export default function AboutPage() {
   <a
     className="btn btn-ghost"
     href="/resume.pdf"
-    download="Cyril-Mandin-Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
   >
-    Download resume
+    View resume
   </a>
 </div>
         </div>
