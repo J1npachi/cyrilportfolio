@@ -191,17 +191,16 @@ export const resume = {
       location: "Sta. Ana Avenue, Davao City, Philippines",
       period: "2025 – Present",
       points: [
-        "Currently pursuing a Bachelor of Science in Information Technology.",
         "Learning programming, web development, and software engineering.",
       ],
     },
 
      {
     title: "Computer Systems Servicing NC II",
-    org: "TESDA (Core Institute of Technology)",
+    org: "TESDA, assessed at Core Institute of Technology",
     location: "Davao City, Philippines",
     period: "2025",
-    points: ["Earned Computer Systems Servicing NC II (TESDA)."],},
+    points: ["Passed the TESDA competency assessment for computer systems servicing."],},
     {
       title: "Senior High School: Computer Systems Servicing",
       org: "F. Bangoy National Senior High School",
