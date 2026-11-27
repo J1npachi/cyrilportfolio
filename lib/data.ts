@@ -199,7 +199,7 @@ export const resume = {
     period: "2025",
     points: ["Earned Computer Systems Servicing NC II (TESDA)."],},
     {
-      title: "Senior High School: Computer Systems Servicing NC II",
+      title: "Senior High School: Computer Systems Servicing",
       org: "F. Bangoy National Senior High School",
       location: "Km.9 Sasa, Davao City, Philippines",
       period: "2023 – 2025",
