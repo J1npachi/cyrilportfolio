@@ -1,6 +1,3 @@
-// Everything you see on the site comes from this file.
-// Replace the placeholder text with your own details and the pages update.
-
 import { title } from "process";
 
 export type Social = { label: string; href: string };
