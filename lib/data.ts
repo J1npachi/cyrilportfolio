@@ -81,6 +81,8 @@ export const projects: Project[] = [
     description:
       "A typing speed test written in C++ that measures how fast and how accurately you type.",
     tags: ["C++"],
+    image: "/projects/c++-typing.jpg",
+    sourceUrl: "https://github.com/J1npachi/C---Speedster-Typing-Test",
     featured: true,
     role: "Development",
     problem:
@@ -100,6 +102,8 @@ export const projects: Project[] = [
       "A fitness website that helps people see workouts and plans clearly, built with HTML and CSS.",
     tags: ["HTML", "CSS"],
     image: "/projects/fitpacer-web.png",
+    sourceUrl: "https://github.com/J1npachi/fitpacer",
+    liveUrl: "https://fitpacer.vercel.app/",
     featured: true,
     role: "Design and development",
     problem:
@@ -119,6 +123,7 @@ export const projects: Project[] = [
       "A speed typing test built in Java, made to compare how the same idea works in a different language.",
     tags: ["Java"],
     image: "/projects/java-typing.png",
+    sourceUrl: "https://github.com/J1npachi/Java-Speedster-Typing-Test",
     featured: true,
     role: "Development",
     problem:
@@ -138,6 +143,8 @@ export const projects: Project[] = [
       "A mobile app interface designed in Figma, from the first sketches to connected screens.",
     tags: ["Figma", "UI design"],
     image: "/projects/fitpacer-mobile.png",
+    sourceUrl: "https://www.figma.com/file/0g1Z7k5X8J3K9L1M2N3O4P/FitPacer-Mobile-App-Layout?type=design&node-id=0%3A1&t=abc123",
+    featured: true,
     role: "UI design",
     problem:
       "Before writing any code for an app, I wanted to plan how every screen would look and how users would move between them.",
